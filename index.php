@@ -53,8 +53,8 @@
                     <td><?php echo $tekst['id']; ?></td>
                     <td><?php echo $tekst['auti']; ?></td>
                     <td>
-                        <a href="edit.php?id=<?php echo $tekst['id']; ?>" class="btn btn-secondary">Ažuriraj</a> | 
-                        <a href="delete.php?id=<?php echo $tekst['id']; ?>" class="btn btn-dark">Izbriši</a>
+                        <a href="edit.php?id=<?php echo $tekst['id']; ?>" >Ažuriraj</a> | 
+                        <a href="delete.php?id=<?php echo $tekst['id']; ?>" >Izbriši</a>
                     </td>
                 </tr>
             <?php endforeach; ?>

@@ -30,7 +30,7 @@
     <title>Edit</title>
 </head>
 <body>
-    <h3>Jesi li siguran da želiš izbrisati tekst - <?php echo $data['tekst']; ?></h3>
+    <h3>Želiš li izbrisai automobil s liste - <?php echo $data['auti']; ?></h3>
     <form action="" method="post">
         <input type="hidden" name="id" value="<?php echo $_GET['id']; ?>">
         <input type="submit" value="DA">
